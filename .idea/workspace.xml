@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11eaa403-cc56-49c8-b570-551482ee0188" name="Changes" comment="实现了Nacos服务注册功能，使用restTemplate进行了服务之间的相互调用" />
+    <list default="true" id="11eaa403-cc56-49c8-b570-551482ee0188" name="Changes" comment="实现了Nacos服务注册功能，使用restTemplate进行了服务之间的相互调用">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo01/hello/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/hello/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo01/hello/src/main/java/com/w/HelloSpringApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/hello/src/main/java/com/w/HelloSpringApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo01/hello/src/main/java/com/w/service/HelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/hello/src/main/java/com/w/service/HelloService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo01/hello/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/hello/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo01/name/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/name/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,10 +21,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -55,7 +68,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "MavenSettings",
     "spring.configuration.checksum": "b8cb786ac23b67d87b2ac6e3656ede48"
   }
 }]]></component>
@@ -111,8 +124,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.NameApplication (1)" />
         <item itemvalue="Spring Boot.NameApplication" />
+        <item itemvalue="Spring Boot.NameApplication (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +138,7 @@
       <option name="presentableId" value="Default" />
       <updated>1660209755353</updated>
       <workItem from="1660209756887" duration="4424000" />
-      <workItem from="1660267937740" duration="1360000" />
+      <workItem from="1660267937740" duration="11538000" />
     </task>
     <task id="LOCAL-00001" summary="实现了Nacos服务注册功能，使用restTemplate进行了服务之间的相互调用">
       <created>1660269691497</created>

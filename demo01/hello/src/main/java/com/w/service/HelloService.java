@@ -1,8 +1,8 @@
 package com.w.service;
 
+import com.w.client.NameClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.client.RestTemplate;
 
 /**
  * @author yanmiao.wu
@@ -11,11 +11,16 @@ import org.springframework.web.client.RestTemplate;
 
 @Service
 public class HelloService {
+//    @Autowired
+//    private RestTemplate restTemplate;
+
     @Autowired
-    private RestTemplate restTemplate;
+    private NameClient nameClient;
 
     public String getName() {
-        String name = restTemplate.getForObject("http://name-service/name",String.class);
+
+//        String name = restTemplate.getForObject("http://name-service/name",String.class);
+        String name = nameClient.findName();
         return name;
     }
 }

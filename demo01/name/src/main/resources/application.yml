@@ -4,5 +4,8 @@ spring:
   cloud:
     nacos:
       server-addr: 127.0.0.1
+      discovery:
+        cluster-name: SZ
+        namespace: 3edef84f-3d94-4f0b-a136-f137385733ac
   application:
     name: name-service
