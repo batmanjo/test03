@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11eaa403-cc56-49c8-b570-551482ee0188" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo01/name/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo02/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="11eaa403-cc56-49c8-b570-551482ee0188" name="Changes" comment="实现了Nacos服务注册功能，使用restTemplate进行了服务之间的相互调用" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +55,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "spring.configuration.checksum": "b8cb786ac23b67d87b2ac6e3656ede48"
   }
 }]]></component>
@@ -132,8 +125,16 @@
       <option name="presentableId" value="Default" />
       <updated>1660209755353</updated>
       <workItem from="1660209756887" duration="4424000" />
-      <workItem from="1660267937740" duration="1194000" />
+      <workItem from="1660267937740" duration="1360000" />
     </task>
+    <task id="LOCAL-00001" summary="实现了Nacos服务注册功能，使用restTemplate进行了服务之间的相互调用">
+      <created>1660269691497</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660269691497</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,5 +150,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="实现了Nacos服务注册功能，使用restTemplate进行了服务之间的相互调用" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现了Nacos服务注册功能，使用restTemplate进行了服务之间的相互调用" />
   </component>
 </project>
