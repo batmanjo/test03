@@ -11,6 +11,7 @@
         <module>order</module>
         <module>user</module>
         <module>feign-api</module>
+        <module>gateway</module>
     </modules>
 
 
