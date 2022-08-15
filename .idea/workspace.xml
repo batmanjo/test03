@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11eaa403-cc56-49c8-b570-551482ee0188" name="Changes" comment="V0.11简单使用了Feign完成服务的远程调用">
-      <change afterPath="$PROJECT_DIR$/demo02/feign-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo02/order/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo02/user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="11eaa403-cc56-49c8-b570-551482ee0188" name="Changes" comment="V0.12 在demo02简单完成了一个订单加用户的查询，实现了公共代码的提取">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo02/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo02/order/src/main/java/com/w/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/order/src/main/java/com/w/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo02/order/src/main/java/com/w/dao/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/order/src/main/java/com/w/dao/OrderMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo02/order/src/main/java/com/w/pojo/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo02/order/src/main/java/com/w/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/order/src/main/java/com/w/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo02/order/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/order/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo02/user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo02/user/src/main/java/com/w/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/user/src/main/java/com/w/UserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo02/user/src/main/java/com/w/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/user/src/main/java/com/w/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo02/user/src/main/java/com/w/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/user/src/main/java/com/w/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo02/user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/user/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,8 +178,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.UserApplication" />
         <item itemvalue="Spring Boot.UserApplication (1)" />
+        <item itemvalue="Spring Boot.UserApplication" />
         <item itemvalue="Spring Boot.OrderApplication" />
         <item itemvalue="Spring Boot.NameApplication" />
         <item itemvalue="Spring Boot.NameApplication (1)" />
@@ -192,7 +196,7 @@
       <updated>1660209755353</updated>
       <workItem from="1660209756887" duration="4424000" />
       <workItem from="1660267937740" duration="12701000" />
-      <workItem from="1660527466982" duration="4587000" />
+      <workItem from="1660527466982" duration="10695000" />
     </task>
     <task id="LOCAL-00001" summary="实现了Nacos服务注册功能，使用restTemplate进行了服务之间的相互调用">
       <created>1660269691497</created>
@@ -208,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660298417529</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="V0.12 在demo02简单完成了一个订单加用户的查询，实现了公共代码的提取">
+      <created>1660532414055</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660532414056</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +236,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/main" />
+                        <option value="dev" />
                       </list>
                     </value>
                   </entry>
@@ -265,6 +276,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="实现了Nacos服务注册功能，使用restTemplate进行了服务之间的相互调用" />
     <MESSAGE value="V0.11简单使用了Feign完成服务的远程调用" />
-    <option name="LAST_COMMIT_MESSAGE" value="V0.11简单使用了Feign完成服务的远程调用" />
+    <MESSAGE value="V0.12 在demo02简单完成了一个订单加用户的查询，实现了公共代码的提取" />
+    <option name="LAST_COMMIT_MESSAGE" value="V0.12 在demo02简单完成了一个订单加用户的查询，实现了公共代码的提取" />
   </component>
 </project>
