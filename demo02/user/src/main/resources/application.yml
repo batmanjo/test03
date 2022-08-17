@@ -1,8 +1,6 @@
 server:
   port: 8082
 spring:
-  application:
-    name: user-service
   cloud:
     nacos:
       server-addr: localhost:8848
@@ -25,3 +23,6 @@ mybatis:
   configuration:
     use-generated-keys: true
     map-underscore-to-camel-case: true
+#logging:
+#  pattern:
+#    dateformat: yy年MM月dd日 HH-mm-ss
