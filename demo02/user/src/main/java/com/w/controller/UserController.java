@@ -1,18 +1,12 @@
 package com.w.controller;
 
-import com.w.config.PatternProperties;
 import com.w.pojo.Order;
 import com.w.pojo.User;
 import com.w.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 /**
@@ -21,6 +15,7 @@ import java.util.List;
  */
 @RefreshScope
 @RestController
+@RequestMapping("/user")
 public class UserController {
     @Autowired
     private UserService userService;
@@ -31,13 +26,14 @@ public class UserController {
 //    @Value("${pattern.dateformat}")
 //    private String dateformat;
 
-    @GetMapping("/user/{id}")
-    public User getUser(@PathVariable("id") long id) {
+    @GetMapping("/{id}")
+    public User getUser(@PathVariable("id") long id, @RequestHeader(value = "sign", required = false) String sign) {
         return userService.queryUser(id);
     }
 
-    @GetMapping("/user-orders/{userId}")
-    public List<Order> getOrders(@PathVariable("userId") long userId) {
+    @GetMapping("/orders/{userId}")
+    public List<Order> getOrders(@PathVariable("userId") long userId, @RequestHeader(value = "sign", required = false) String sign) {
+        System.out.println(sign);
         return userService.queryOrderByUserId(userId);
     }
 

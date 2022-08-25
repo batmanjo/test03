@@ -15,6 +15,8 @@ spring:
           uri: lb://user-service
           predicates:
             - Path=/user/**
+          filters:
+            - AddRequestHeader=sign, request-header-by-wym
         - id: order-service
           uri: lb://order-service
           predicates:

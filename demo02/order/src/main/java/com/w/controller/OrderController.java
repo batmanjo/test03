@@ -5,6 +5,7 @@ import com.w.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
@@ -14,11 +15,12 @@ import java.util.List;
  * @create 2022-08-15 10:01
  */
 @RestController
+@RequestMapping("order")
 public class OrderController {
     @Autowired
     private OrderService orderService;
 
-    @GetMapping("/order/{id}")
+    @GetMapping("/{id}")
     public Order queryOrderById(@PathVariable("id") long id) {
         // 根据id查询订单并返回
         return orderService.queryOrder(id);
