@@ -1,0 +1,8 @@
+server:
+  port: 8084
+
+myName: 张三
+
+redis:
+  host: localhost
+  port: 6379
