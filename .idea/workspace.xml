@@ -4,23 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11eaa403-cc56-49c8-b570-551482ee0188" name="Changes" comment="V0.12 在demo02简单完成了一个订单加用户的查询，实现了公共代码的提取">
+    <list default="true" id="11eaa403-cc56-49c8-b570-551482ee0188" name="Changes" comment="试试Jedis">
+      <change afterPath="$PROJECT_DIR$/demo03/src/test/java/JsonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a6cef741-0042-4cda-8e0b-8da3326eb807.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a6cef741-0042-4cda-8e0b-8da3326eb807.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo02/order/src/main/java/com/w/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/order/src/main/java/com/w/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo02/order/src/main/java/com/w/dao/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/order/src/main/java/com/w/dao/OrderMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo02/order/src/main/java/com/w/pojo/Order.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo02/order/src/main/java/com/w/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/order/src/main/java/com/w/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo02/order/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/order/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo02/user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo02/user/src/main/java/com/w/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/user/src/main/java/com/w/UserApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo02/user/src/main/java/com/w/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/user/src/main/java/com/w/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo02/user/src/main/java/com/w/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/user/src/main/java/com/w/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo02/user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/user/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo03/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo03/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo03/src/test/java/JedisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo03/src/test/java/JedisTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -33,10 +32,13 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="dev-wym" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/demo02/gateway/pom.xml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -58,30 +60,30 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/code/projects/test03/demo01",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "spring.configuration.checksum": "b8cb786ac23b67d87b2ac6e3656ede48"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/code/projects/test03/demo01&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;7b57061652e34a94ba5c166267e41606&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -89,7 +91,64 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserApplication">
+  <component name="RunManager" selected="JUnit.JsonTest.jsonTest1">
+    <configuration name="JedisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo03" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JedisTest" />
+      <option name="METHOD_NAME" value="testJedis" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JedisTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo03" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JedisTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JedisTest.testJedis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo03" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JedisTest" />
+      <option name="METHOD_NAME" value="testJedis" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonTest.jsonTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo03" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JsonTest" />
+      <option name="METHOD_NAME" value="jsonTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonTest.testSOUT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo03" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JsonTest" />
+      <option name="METHOD_NAME" value="testSOUT" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo3Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo03" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo3.Demo3Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HelloSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="hello" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.w.HelloSpringApplication" />
@@ -97,96 +156,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NameApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
-      <option name="ACTIVE_PROFILES" />
-      <option name="ALTERNATIVE_JRE_PATH" value="D:\Java\java8\jre" />
+    <configuration name="NameApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="name" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.w.NameApplication" />
-      <option name="VM_PARAMETERS" value="-Dserver.port=8082" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.w.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NameApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
-      <option name="ACTIVE_PROFILES" />
-      <module name="name" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.w.NameApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.w.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="order" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.w.OrderApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.w.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <option name="ACTIVE_PROFILES" />
-      <module name="user" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.w.UserApplication" />
-      <option name="VM_PARAMETERS" value="-Dserver.port=8083" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.w.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="user" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.w.UserApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.w.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.HelloSpringApplication" />
-      <item itemvalue="Spring Boot.OrderApplication" />
-      <item itemvalue="Spring Boot.UserApplication" />
-      <item itemvalue="Spring Boot.UserApplication (1)" />
+      <item itemvalue="JUnit.JsonTest.jsonTest1" />
+      <item itemvalue="JUnit.JsonTest.testSOUT" />
+      <item itemvalue="JUnit.JedisTest.test1" />
+      <item itemvalue="JUnit.JedisTest" />
+      <item itemvalue="JUnit.JedisTest.testJedis" />
+      <item itemvalue="Spring Boot.Demo3Application" />
       <item itemvalue="Spring Boot.NameApplication" />
-      <item itemvalue="Spring Boot.NameApplication (1)" />
+      <item itemvalue="Spring Boot.HelloSpringApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.UserApplication (1)" />
-        <item itemvalue="Spring Boot.UserApplication" />
-        <item itemvalue="Spring Boot.OrderApplication" />
-        <item itemvalue="Spring Boot.NameApplication" />
-        <item itemvalue="Spring Boot.NameApplication (1)" />
+        <item itemvalue="JUnit.JsonTest.jsonTest1" />
+        <item itemvalue="JUnit.JsonTest.testSOUT" />
+        <item itemvalue="JUnit.JedisTest.test1" />
+        <item itemvalue="JUnit.JedisTest.testJedis" />
+        <item itemvalue="JUnit.JedisTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\yanmiao.wu\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="11eaa403-cc56-49c8-b570-551482ee0188" name="Changes" comment="" />
@@ -196,7 +196,18 @@
       <updated>1660209755353</updated>
       <workItem from="1660209756887" duration="4424000" />
       <workItem from="1660267937740" duration="12701000" />
-      <workItem from="1660527466982" duration="10695000" />
+      <workItem from="1660527466982" duration="21490000" />
+      <workItem from="1660561344270" duration="606000" />
+      <workItem from="1660614347170" duration="1650000" />
+      <workItem from="1661244717507" duration="1284000" />
+      <workItem from="1661305096183" duration="661000" />
+      <workItem from="1661325674070" duration="3548000" />
+      <workItem from="1661391156168" duration="5952000" />
+      <workItem from="1661416346349" duration="6624000" />
+      <workItem from="1661476656931" duration="6571000" />
+      <workItem from="1661498229442" duration="2363000" />
+      <workItem from="1661500685737" duration="3897000" />
+      <workItem from="1661997095956" duration="5717000" />
     </task>
     <task id="LOCAL-00001" summary="实现了Nacos服务注册功能，使用restTemplate进行了服务之间的相互调用">
       <created>1660269691497</created>
@@ -219,7 +230,42 @@
       <option name="project" value="LOCAL" />
       <updated>1660532414056</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="V0.13-demo02 玩了一下配置，增加了通过用户查询所有订单的功能">
+      <created>1660544224551</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1660544224551</updated>
+    </task>
+    <task id="LOCAL-00005" summary="V0.14-demo02 先占个gateway的坑">
+      <created>1660546482498</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1660546482498</updated>
+    </task>
+    <task id="LOCAL-00006" summary="V0.15-demo02 简单使用gateway">
+      <created>1660560627194</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1660560627194</updated>
+    </task>
+    <task id="LOCAL-00007" summary="试试过滤器工厂和GlobalFilter">
+      <created>1661396767618</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1661396767618</updated>
+    </task>
+    <task id="LOCAL-00008" summary="试试Jedis">
+      <created>1661503554467</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1661503554467</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +282,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="dev" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -277,6 +323,15 @@
     <MESSAGE value="实现了Nacos服务注册功能，使用restTemplate进行了服务之间的相互调用" />
     <MESSAGE value="V0.11简单使用了Feign完成服务的远程调用" />
     <MESSAGE value="V0.12 在demo02简单完成了一个订单加用户的查询，实现了公共代码的提取" />
-    <option name="LAST_COMMIT_MESSAGE" value="V0.12 在demo02简单完成了一个订单加用户的查询，实现了公共代码的提取" />
+    <MESSAGE value="V0.13-demo02 玩了一下配置，增加了通过用户查询所有订单的功能" />
+    <MESSAGE value="V0.14-demo02 先占个gateway的坑" />
+    <MESSAGE value="V0.15-demo02 简单使用gateway" />
+    <MESSAGE value="试试过滤器工厂和GlobalFilter" />
+    <MESSAGE value="试试Jedis" />
+    <option name="LAST_COMMIT_MESSAGE" value="试试Jedis" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

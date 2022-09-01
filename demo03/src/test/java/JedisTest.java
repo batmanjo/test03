@@ -4,7 +4,5 @@
  */
 public class JedisTest {
 
-//    @Autowired
-//    private MyJedis myJedis;
 
 }
